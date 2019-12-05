@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+    <title>謎の少女からのメッセージ</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/yakuhanjp@3.2.0/dist/css/yakuhanjp.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/musubii@6.5.0/docs/css/musubii.min.css">
+
+    <!-- Styles -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/c0449af42e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="content">
+        <div class="header">
+            <a href="index.html">謎の少女からのメッセージ</a>
+        </div>
+        <div class="main">
+            <div class="description">
+                <p>このアプリを使って神戸電子のどこかにある<br>
+                    謎を解いていこう！<br>
+                    謎を見つけたら、それと同じマーカー<br>
+                    のカメラを起動しよう。<br><br>
+                    ※ARが表示されない場合はマーカーからカメラを離して、
+                    もう一度かざしてみてください。
+                </p>
+            </div>
+            <div class="nazo-card">
+                <img class="card-img" src="assets/image/nazo-hiero/cow.svg" alt="">
+                <div class="card-content">
+                    <h1 class="card-title">暴れる牡牛の謎</h1>
+                </div>
+                <div class="card-link">
+                    <a class="nazo_cow-btn" href="detail/cow.html">
+                        謎を探す
+                    </a>
+                </div>
+                <div class="card-link">
+                    <a class="answer_btn" href="javascript:alert('現在、解答できません。');">
+                        解答する
+                    </a>
+                </div>
+            </div>
+
+            <div class="nazo-card">
+                <img class="card-img" src="assets/image/nazo-hiero/lion.svg" alt="">
+                <div class="card-content">
+                    <h1 class="card-title">ライオンの謎</h1>
+                </div>
+                <div class="card-link">
+                    <a class="nazo_lion-btn" href="detail/lion.html">
+                        謎を探す
+                    </a>
+                </div>
+                <div class="card-link">
+                    <a class="answer_btn" href="javascript:alert('現在、解答できません。');">
+                        解答する
+                    </a>
+                </div>
+            </div>
+
+            <div class="nazo-card">
+                <img class="card-img" src="assets/image/nazo-hiero/duck.svg" alt="">
+                <div class="card-content">
+                    <h1 class="card-title">空を飛ぶのアヒル謎</h1>
+                </div>
+                <div class="card-link">
+                    <a class="nazo_duck-btn" href="detail/duck.html">
+                        謎を探す
+                    </a>
+                </div>
+                <div class="card-link">
+                    <a class="answer_btn" href="javascript:alert('現在、解答できません。');">
+                        解答する
+                    </a>
+                </div>
+            </div>
+
+            <div class="nazo-card">
+                <img class="card-img" src="assets/image/nazo-hiero/anubis.svg" alt="">
+                <div class="card-content">
+                    <h1 class="card-title">アヌビスの謎</h1>
+                </div>
+                <div class="card-link">
+                    <a class="nazo_anubis-btn" href="detail/anubis.html">
+                        謎を探す
+                    </a>
+                </div>
+                <div class="card-link">
+                    <a class="answer_btn" href="javascript:alert('現在、解答できません。');">
+                        解答する
+                    </a>
+                </div>
+            </div>
+
+            <div class="nazo-card">
+                <img class="card-img" src="assets/image/nazo-hiero/vulture.svg" alt="">
+                <div class="card-content">
+                    <h1 class="card-title">ハゲワシの謎</h1>
+                </div>
+                <div class="card-link">
+                    <a class="nazo_vulture-btn" href="detail/vulture.html">
+                        謎を探す
+                    </a>
+                </div>
+                <div class="card-link">
+                    <a class="answer_btn" id= "aaa" href="javascript:alert('現在、解答できません。');">
+                        解答する
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
